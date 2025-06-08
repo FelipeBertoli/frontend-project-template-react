@@ -10,7 +10,7 @@ export default function ClassicMenu({
     menuNavSpacing = 'small', /* espaçamento entre os componentes de navegação smaller, small, medium, large */
     menuNavStyle = 'contained', /* estilo visual do componente de navegação - contained, outlined, text */
     menuReverse = false /* condição que reverte o logo e o perfil de lugar - false, true */,
-    menuWidth = 'fit', /* comprimento do menu - full, fit */
+    menuWidth = 'fit', /* comprimento do menu - expanded, fit */
     showMenuProfile = true /* exibe o perfil do usuário no final do componente - false, true */
    }) {
 

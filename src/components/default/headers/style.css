@@ -40,7 +40,7 @@
     width: 100%;
     gap: 1.5rem;
     padding-right: 2rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
 }
 
 .header-toolbar.center{
@@ -90,11 +90,11 @@
 
 /* Navegação do Header */
 .header-nav {
-    gap:2rem;
+    gap:2.5rem;
 }
 
-.header.contained-nav {
-    height: 9vh;
+.header.full-nav {
+    height: var(--full-header-height);
 }
 
 /*#endregion*/
@@ -161,7 +161,7 @@
     width: calc(100vw - 50px);
 }
 
-.hybrid:has(.sidebar.full) {
+.hybrid:has(.sidebar.expanded) {
     right: 0;
     width: calc(100vw - 70px);
 }

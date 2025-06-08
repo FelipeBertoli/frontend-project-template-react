@@ -2,3 +2,6 @@
     object-fit: contain;
   }
   
+  .logo.spacing {
+    padding: 1rem;
+  }

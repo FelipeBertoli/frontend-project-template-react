@@ -10,7 +10,7 @@ import Icon from '../elements/Icon';
  * @param {string} size: tamanho do componente - xs, sm (default), md, lg, xl, xxl
  * @param {string} type: tipo do componente - contained (default), outlined, text
  */
-export default function IconButton({ action, color = 'primary' , iconImage, iconStyle='solid', size = 'sm', type = 'contained' }) {
+export default function IconButton({ action, color = 'primary' , iconImage, iconStyle = 'solid', size = 'sm', type = 'contained' }) {
   return (
     <button onClick={action} className={`button icon-button ${type} ${color} ${size}`}>
       <Icon image={iconImage} style={iconStyle}/>

@@ -16,7 +16,8 @@
   --input-padding: 7px 8px;
   --action-width: 20rem;
   --transition: all .4s ease-in-out;
-  --header-height: 7vh;
+  --header-height: 8vh;
+  --full-header-height: 7vh;
 }
 
 * {

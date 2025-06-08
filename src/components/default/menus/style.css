@@ -15,7 +15,7 @@
   width: 50px;
 }
 
-.sidebar.full {
+.sidebar.expanded {
   width: 70px;
   padding: 6px 14px;
 }
@@ -144,7 +144,7 @@
   width: 50px;
 }
 
-.sidebar.full li.profile {
+.sidebar.expanded li.profile {
   width: 70px;
 }
 

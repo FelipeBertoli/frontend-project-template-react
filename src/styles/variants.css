@@ -14,6 +14,11 @@
     background-color: var(--color-action-hover);
 }
 
+.nav-link:hover.filled {
+    background-color: var(--color-primary);
+  filter:  brightness(.8);
+}
+
 .shadow {
     box-shadow: var(--box-shadow);
 }
@@ -76,7 +81,7 @@
 .outlined,
 .contained,
 .text {
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
 }
 
@@ -183,3 +188,11 @@
 }
 
 /*#endregion*/
+
+.filled {
+    background-color: var(--color-primary);
+}
+
+.filled:hover {
+
+}

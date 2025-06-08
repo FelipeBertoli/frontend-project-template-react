@@ -50,7 +50,7 @@
     padding-right: .8rem;
 }
 
-.sidebar.full .nav-link {
+.sidebar.expanded .nav-link {
     padding-left: .6rem;
     padding-right: .6rem;
 }
@@ -134,4 +134,12 @@
 
 .text.contained:hover span, .text.contained:hover i {
     color: white;
+}
+
+.nav-link.full {
+    height: var(--full-header-height)
+}
+
+.nav-link:hover.full {
+    background-color: var(--color-primary);
 }

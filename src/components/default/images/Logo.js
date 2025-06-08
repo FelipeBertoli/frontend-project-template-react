@@ -7,7 +7,7 @@ import './style.css'
  * @param {string} lightLogoPath: caminho da logo do tema claro
  * @param {string} width: tamanho da logo
  */
-export default function Logo({darkLogoPath = '/assets/logo-escuro.png', lightLogoPath= '/assets/logo-claro.png', width='180px'}) {
+export default function Logo({darkLogoPath = '/assets/logo-escuro.png', lightLogoPath= '/assets/logo-claro.png', width='180px', setPadding=false}) {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function Logo({darkLogoPath = '/assets/logo-escuro.png', lightLog
   return (
     <img
       src={logoSrc}
-      className="logo"
+      className={`logo ${setPadding===true && 'spacing'}`}
       alt="Logo"
       style={{ width: width, height: 'auto' }}
     />
